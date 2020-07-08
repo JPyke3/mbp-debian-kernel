@@ -4,8 +4,9 @@ Build scripts for the Debian Kernel with patches for the <=2018 MacBook Pro and 
 
 ## Disclaimer
 
-This is very scuffed and very much in development, I threw all of this together whilst playing around for like a day. 
+This is very scuffed and very much in development, I threw all of this together whilst playing around for like a day. It was more of a project to see if I could do it, rather than a project to make it release ready.
 
+**If you want a robust system see [mbp-fedora](https://github.com/mikeeq/mbp-fedora), [mbp-ubuntu](https://github.com/marcosfad/mbp-ubuntu) or [linux-mbp-arch](https://github.com/aunali1/linux-mbp-arch)**
 ## Building
 You need a Debian machine running buster in order to run this script
 
