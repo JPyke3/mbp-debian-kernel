@@ -13,6 +13,7 @@ You need a Debian machine running buster in order to run this script
 1. Add the buster-backports to `/etc/apt/sources.list`
 ```
 echo 'deb http://deb.debian.org/debian buster-backports main' >> /etc/apt/sources.list
+echo 'deb-src http://deb.debian.org/debian buster-backports main' >> /etc/apt/sources.list
 ```
 2. Run `build.sh` as root
 ```
