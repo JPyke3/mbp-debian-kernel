@@ -19,6 +19,7 @@ done
 
 echo >&2 "==> Generate Config File"
 make defconfig
+sed -i 's/EXTRAVERSION =/EXTRAVERSION =-mbp/g' ./Makefile
 
 echo >&2 "==> Compile Kernel"
 make clean
